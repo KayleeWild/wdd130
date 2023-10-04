@@ -1,0 +1,30 @@
+body{
+    background-color: #fba7c9;
+    color: white;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+section{
+    text-align: left;
+    color: black;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+img{
+    width: 30%;
+}
+
+h2{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.bottom{
+    color: black;
+    margin: 0 auto;
+}
