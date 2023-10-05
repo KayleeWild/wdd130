@@ -1,0 +1,96 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #04314E;
+}
+  
+body{
+    background-color: #04314E;
+}
+
+header{
+    background-color:rgba(4,49,78, .7);
+}
+
+nav a:hover{
+    background-color: #0097B2;
+    color: #04314E
+}
+
+.book, .join{
+    background-color: #04314E;
+    color: #E3F2FD;
+}
+
+.book:hover, .join:hover{
+    background-color: #04314E;
+    color: #0097B2;
+}
+
+.msg{
+    background-color: #04314E;
+}
+
+footer{
+    background-color: #FFFFFF;
+    color: #04314E;
+}
+
+.home-title{
+    color: #0097B2;
+}
+
+h4{
+    color: #0097B2;
+}
+
+.msg h2{
+    color: #FFFFFF;
+}
+
+.msg p{
+    color: #FFFFFF;
+}
+
+footer a{
+    color: #0097B2;
+}
+
+footer a:hover{
+    color:#04314E;
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    width: 80px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+/* left off with step 15 */
