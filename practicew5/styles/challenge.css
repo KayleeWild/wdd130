@@ -1,0 +1,17 @@
+body{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.bottom{
+    background-color: darkgrey;
+    text-align: center;
+    max-width: 1280px;
+}
+
+.bottom img{
+    width: 240px;
+    border: 10px solid #3f3f3f;
+    margin: 2em;
+    border-radius: 50%;
+}
