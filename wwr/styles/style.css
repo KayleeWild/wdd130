@@ -1,16 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dosis&display=swap');
+/* --heading-font: "Architects Daughter", sans-serif;
+  --paragraph-font: Dosis, sans-serif; */
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 
+body{
+    background-color: #FFFFFF;
+    font-family: Dosis, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation stuf */
+
 nav a{
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 35px;
 }
+
+nav a:hover{
+    background-color: #0097B2;
+    color: #04314E
+}
+header{
+    background-color:rgba(4,49,78, .7);
+}
+
+/* main content */
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+}
+
+h2{
+    margin: 0;
 }
 
 .button-box{
@@ -21,28 +50,23 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #455E45;
 }
   
-body{
-    background-color: #FFFFFF;
-}
-
-header{
-    background-color:rgba(4,49,78, .7);
-}
-
-nav a:hover{
-    background-color: #0097B2;
-    color: #04314E
-}
-
 .book, .join{
     background-color: #FFFFFF;
     color: #0097B2;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid #04314E ;
 }
 
 .book:hover, .join:hover{
@@ -50,29 +74,65 @@ nav a:hover{
     color: #04314E;
 }
 
-.msg{
-    background-color: #04314E;
-}
-
-footer{
-    background-color: #FFFFFF;
-    color: #04314E;
-}
-
 .home-title{
     color: #0097B2;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
     color: #0097B2;
 }
 
+.msg{
+    background-color: #04314E;
+    font-size: 1.5em;
+    padding: 35px;
+}
+
 .msg h2{
     color: #FFFFFF;
+    font-family: "Architects Daughter", sans-serif;
 }
 
 .msg p{
     color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.logo{
+    width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img{
+    width: 100%;
+}
+
+.card-img{
+    border: 10px solid #04314E;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+/* footer stuf */
+
+footer{
+    background-color: #FFFFFF;
+    color: #04314E;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -84,22 +144,14 @@ footer a:hover{
     color:#04314E;
 }
 
-.logo{
-    width: 80px;
-}
-
-.icon{
-    width: 80px;
-}
-
-#hero-img{
-    width: 100%;
-}
-
 footer p{
     font-size: 1.2em;
 }
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
