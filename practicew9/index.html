@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 9 Challenge</title>
+    <style>
+        body{
+            background-color: #1E1E1E;
+        }
+        .card{
+            background-color: white;
+            max-width: 400px;
+            margin: 0 auto;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card img{
+            width: 100%;
+        }
+        p{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .post-time{
+            color: #405B8A;
+            margin: 0;
+            margin-top: 20px;
+        }
+        .post-heading{
+            font-size: 36px;
+            font-weight: 900;
+            margin: 0;
+        }
+        .post-content{
+            color: gray;
+            margin: 2rem;
+            font-size: 18px;
+        }
+        .stats{
+            background-color: #405B8A;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: 100px;
+            grid-template-rows: 30px 30px;
+        }
+        .stat{
+            color: white;
+        }
+        .stat p{
+            margin-block-start: 0;
+            margin-block-end: 0;
+            border: 1px solid gray;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <section class="card">
+        <img src="images/w09_ice_img.jpg" alt="cityscape">
+        <p class="post-time">3 weeks ago</p>
+        <p class="post-heading">Post Three</p>
+        <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim pariatur nesciunt omnis sint eum expedita dolorum aliquam, quasi aliquid nisi possimus beatae nostrum corrupti nemo, in velit eaque cumque?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim pariatur nesciunt omnis sint eum expedita dolorum aliquam, quasi aliquid nisi possimus beatae nostrum corrupti nemo, in velit eaque cumque?</p>
+        <div class="stats">
+            <div class="stat">
+                <p>5<sup>m</sup></p>
+                <p>READ</p>
+            </div>
+            <div class="stat">
+                <p>2031</p>
+                <p>VIEWS</p>
+            </div>
+            <div class="stat">
+                <p>15</p>
+                <p>COMMENTS</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
