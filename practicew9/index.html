@@ -50,8 +50,24 @@
         .stat p{
             margin-block-start: 0;
             margin-block-end: 0;
-            border: 1px solid gray;
-            padding: 1rem;
+            grid-row: 1/2;
+            border-right: 1px;
+            border-top: 0px;
+            border-bottom: 0px;
+            border-left: 0px;
+            border-color: gray;
+            border-style: solid;
+            padding: 5%;
+            font-size: 14px;
+            height: 100%;
+        }
+        .stat .number{
+            font-size: 26px;
+            padding: 20px 0px 0px;
+        }
+        sup{
+            vertical-align: super;
+            font-size: smaller;
         }
     </style>
 </head>
@@ -63,15 +79,15 @@
         <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim pariatur nesciunt omnis sint eum expedita dolorum aliquam, quasi aliquid nisi possimus beatae nostrum corrupti nemo, in velit eaque cumque?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias enim pariatur nesciunt omnis sint eum expedita dolorum aliquam, quasi aliquid nisi possimus beatae nostrum corrupti nemo, in velit eaque cumque?</p>
         <div class="stats">
             <div class="stat">
-                <p>5<sup>m</sup></p>
+                <p class="number">5<sup>m</sup></p>
                 <p>READ</p>
             </div>
             <div class="stat">
-                <p>2031</p>
+                <p class="number">2031</p>
                 <p>VIEWS</p>
             </div>
             <div class="stat">
-                <p>15</p>
+                <p class="number">15</p>
                 <p>COMMENTS</p>
             </div>
         </div>
