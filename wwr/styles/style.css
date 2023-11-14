@@ -272,7 +272,7 @@ footer .social img{
     border: #04314E 1px solid;
     width: 90%;
     background-color: #0097B2;
-    border-radius: 3%;
+    border-radius: .5em;
 }
 
 .info p, .info h2{
@@ -280,7 +280,7 @@ footer .social img{
     border: #04314E 1px solid;
     margin: 10%;
     background-color: white;
-    border-radius: 5%;
+    border-radius: .5em;
 }
 
 #trips img{
@@ -288,7 +288,7 @@ footer .social img{
     width: 90%;
     height: 150px;
     margin: 20px auto;
-    border-radius: 3%;
+    border-radius: .5em;
 }
 
 #note{
@@ -299,12 +299,110 @@ footer .social img{
     background-color: white;
     color: #04314E;
     font-size: 28px;
+    border-radius: .5em;
 }
 
 #calendar{
     width: 100%;
     margin: 10% 0 -100px;
 }
+
+/* Contact Us Stuf */
+
+#feedback {
+    background-color: #0097B2;
+    color: #04314E;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    width: 100%;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+#contact-us-form{
+    background-color:rgba(4, 49, 78, 0.7);
+    padding: 5% 5% 10%;
+    margin: 0 auto -200px;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 5% auto;
+    width: 700px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #0097B2;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: block;
+    width: 90px;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 100%;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 2px solid #04314E;
+    background-color: #0097B2;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding: 0 35%; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+    background-color: #455E45;
+    border: 2px solid #04314E;
+    color: #FFFFFF;
+    padding: .5rem 1rem;
+    letter-spacing: 1px;
+    font-family: Dosis, sans-serif;
+  }
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
