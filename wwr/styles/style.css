@@ -4,6 +4,7 @@
 
 #content{
     max-width: 1600px;
+    min-width: 1200px;
     margin: 0 auto;
 }
 
@@ -245,6 +246,64 @@ footer p a:hover{
 
 footer .social img{
     padding-top: 15px;
+}
+
+/* Rates Page Specials */
+.rates-title {
+    color: #0097B2;
+    text-shadow: white 2px 2px ;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+#trips{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: #04314E;
+    width: 100%;
+    padding: 80px;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+.info{
+    border: #04314E 1px solid;
+    width: 90%;
+    background-color: #0097B2;
+    border-radius: 3%;
+}
+
+.info p, .info h2{
+    text-align: center;
+    border: #04314E 1px solid;
+    margin: 10%;
+    background-color: white;
+    border-radius: 5%;
+}
+
+#trips img{
+    display: block;
+    width: 90%;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 3%;
+}
+
+#note{
+    border: #04314E 1px solid;
+    grid-column: 1/5;
+    padding: 0 7%;
+    margin: 50px;
+    background-color: white;
+    color: #04314E;
+    font-size: 28px;
+}
+
+#calendar{
+    width: 100%;
+    margin: 10% 0 -100px;
 }
 
 @media screen and (max-width: 900px) {
