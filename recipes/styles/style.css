@@ -312,7 +312,6 @@ footer #social {
 .dropdown {
   position: absolute;
   bottom: -10px;
-  left: center;
   display: block;
   width: 100%;
   margin: 0 auto;
@@ -412,7 +411,6 @@ footer #social {
   color: #2B2625;
   z-index: 1;
   top: 25%;
-  left: center;
   font-size: 4rem;
   width: 27%;
 }
