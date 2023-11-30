@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="images/thumbnail.png">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body id="main-dishes">
     <header>
         <a class="logo_link" href="index.html">
             <img id="logo" src="images/thumbnail.png" alt="logo">
@@ -19,13 +19,18 @@
             <a href="tools.html">Tools</a>
         </nav>
     </header>
-    <div id="hero">  
+    <div id="child-hero">  
         <h1>Main Dishes</h1>
     </div>
-    <section>
-        <p>* Denotes a healthier "402 Recipe"</p>
-    </section>
     <main>
+        <div class="search_box">
+            <form action="" id="form2">
+                <div>                    
+                    <input type="button" id="submit_form" onclick="checkInput()" value="Search Recipes">
+                    <input type="text" id="search" placeholder="Search...">
+                </div>
+            </form>
+        </div>
         <section>
             <img class="recipe-card" src="images/burger_opened.jpg" alt="J Pop Burger">
             <div class="dropdown">
@@ -50,7 +55,9 @@
                     <br>6. Then broil on low until bacon is crispy
                     </p>
                     <br>
-                    <h3>“I died, went to heaven, then came back just so I could have another bite.” -Lyle</h3>
+                    <div id="quote-card">
+                        <h3>“I died,<br>went to heaven,<br>then came back just so I could have another bite.”<br>-Lyle</h3>
+                    </div>
                     <h2>J Pop Burger</h2>
                     <h3>Ingredients:</h3>
                     <p>
@@ -82,7 +89,7 @@
                     <h2>Pulled Pork Mac 'n Cheese</h2>
                     <h3>Ingredients:</h3>
                     <p>
-                        1 Boxes of Shell pasta
+                        1 Box of Shell pasta
                     <br>Milk
                     <br>2 tablespoons of butter 
                     <br>Cheese
@@ -92,16 +99,16 @@
                     <br>Liquid Smoke                    
                     </p>
                     <h3>Instructions:</h3>
-                    <h4>Mac and Cheese:</h4>
-                    <p>                        
-                        Start with a pot and put your macaroni in there, then fill it with milk until it covers the noodles. Put it on a medium high heat and stir it constantly.
+                    <p>       
+                        Mac and Cheese:                 
+                    <br>Start with a pot and put your macaroni in there, then fill it with milk until it covers the noodles. Put it on a medium high heat and stir it constantly.
                     <br>Once the noodles are cooked, turn the heat to low.
                     <br>Add 2 tablespoons of butter and as much cheese as your heart desires and stir it together until it's smooth. 
                     <br>Then add some spices, add garlic powder, oregano, paprika, and others. 
-                    </p>    
-                    <h4>Pulled Pork:</h4>
+                    </p>
                     <p>
-                        Set Pork Loin into an Instant Pot on low for 8 hours with spices, liquid smoke, Worcestershire sauce.
+                        Pulled Pork:
+                    <br>Set Pork Loin into an Instant Pot on low for 8 hours with spices, liquid smoke, Worcestershire sauce.
                     <br>Then shred the pork   
                     <br>
                     <br>    
@@ -143,7 +150,7 @@
         <section>
             <img class="recipe-card" src="images/tofu_popper1.jpg" alt="Tofu Stuffed Peppers">
             <div class="dropdown">
-                <a href='#/' class="nav-link dropbtn">Tofu Stuffed Peppers</a>
+                <a href='#/' class="nav-link dropbtn">Tofu Stuffed Peppers*</a>
                 <div class="dropdown-content">
                     <h2>Tofu Stuffed Peppers</h2>
                     <h3>Ingredients:</h3>
@@ -236,7 +243,7 @@
             <div class="dropdown">
                 <a href='#/' class="nav-link dropbtn">Air-fried B.L.A.T.s</a>
                 <div class="dropdown-content">
-                    <h2>Air-fried B.L.A.T.s (Bacon, Lettuce, Avocado, Tomato)</h2>
+                    <h2>Air-fried B.L.A.T.s<br>(Bacon, Lettuce, Avocado, Tomato)</h2>
                     <h3>Ingredients:</h3>
                     <p>
                         2 slices of bread
@@ -318,8 +325,8 @@
                     <h3>Ingredients:</h3>
                     <p>
                         1 Rotisserie Chicken
-                    <br>1 Cup of Milk
-                    <br>1 Cup of Red Lobster Cheddar bay biscuit mix 
+                    <br>2 Cups of Milk
+                    <br>1 package of Red Lobster Cheddar bay biscuit mix (or Rosemary Garlic)
                     <br>1 Stick of Butter
                     <br>1 Cup of Chicken Stock
                     <br>1 Can of Cream of Chicken Soup
@@ -329,16 +336,19 @@
                     <p>
                         1. Preheat Oven 350 degrees
                     <br>2. Shred the Chicken 
-                    <br>3. Mix Milk and Biscuit mix into a bowl
+                    <br>3. Mix Milk and Biscuit mix (plus the little seasoning packet) into a bowl
                     <br>4. Mix Chicken Stock and Cream of Chicken together in another bowl
                     <br>5. Spread the stick of butter into a 9x13 pan 
                     <br>6. Place Chicken on bottom then add veggies and pour the milk and biscuit mix on top (DO NOT MIX OR STIR)
-                    <br>7. Then pour the chicken stock mixture on top once again (DO NOT MIX OR STIR)
+                    <br>7. Then pour the chicken stock mixture on top (once again DO NOT MIX OR STIR)
                     <br>8. Bake in oven to 350 degrees for 45 minutes                                             
                     </p>
                 </div>
             </div>
         </section> -->
+        <div class="tips">
+            <p>* Denotes a healthier "402 Recipe"</p>
+        </div>
     </main>
     <footer>
         <a class="logo_link" href="index.html">
@@ -366,7 +376,11 @@
                 // if this is a dropdown button being clicked, toggle the show class
             })
         })
-
+        function checkInput() {
+        var query = document.getElementById('search').value;
+        window.find(query);
+        return true;
+        }
     </script>
 </body>
 </html>

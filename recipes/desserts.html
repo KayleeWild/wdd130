@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="images/thumbnail.png">
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body id="main-dishes">
     <header>
         <a class="logo_link" href="index.html">
             <img id="logo" src="images/thumbnail.png" alt="logo">
@@ -19,10 +19,18 @@
             <a href="tools.html">Tools</a>
         </nav>
     </header>
-    <div id="hero">  
+    <div id="child-hero">  
         <h1>Desserts</h1>
     </div>
     <main>
+        <div class="search_box">
+            <form action="" id="form2">
+                <div>                    
+                    <input type="button" id="submit_form" onclick="checkInput()" value="Search Recipes">
+                    <input type="text" id="search" placeholder="Search...">
+                </div>
+            </form>
+        </div>       
         <div class="tips">
             <h2>Tips For Frying Stuff</h2>
             <p>This section is all about how to fry stuff. Periodically at Apt. 6, we would observe a holiday that we referred to as “fry stuff Friday.” It happened on Fridays (or other days of the week if we couldn’t wait) and in honor of the name we would fry stuff. Pretty straightforward. To help others observe the time-honored tradition of “fry stuff Friday”, we included the basic guidelines for frying food and a list of suggested ingredients. Just make sure you don't fry potatoes when Lyle is home... unless you like being a human punch-bag.</p>
@@ -31,8 +39,7 @@
             <img class="recipe-card" src="images/pie.jpg" alt="Lemonade Pie">
             <div class="dropdown">
                 <a href='#/' class="nav-link dropbtn">Lemonade Pie (with variations)</a>
-                <div class="dropdown-content">
-                    <h3>“Forget frying stuff, we’re pie-ing stuff” -Ethan</h3>
+                <div class="dropdown-content">   
                     <h2>Lemonade Pie</h2>
                     <h3>Ingredients:</h3>
                     <p>
@@ -41,6 +48,9 @@
                     <br>12 oz of Lemon Concentrate (can substitute lemon for other flavors)
                     <br>2 Pie Crusts                                            
                     </p>
+                    <div id="quote-card"> 
+                        <h3>“Forget frying stuff,<br>we’re pie-ing stuff”<br>-Ethan</h3>
+                    </div> 
                     <h3>Instructions:</h3>
                     <p>
                         1. Combine all ingredients into a mixing bowl 
@@ -266,7 +276,7 @@
                     <br>5. Dip items in mixture then place into oil
                     <br>6. Cook each side for 20-30 seconds or until Golden Brown                                          
                     </p>
-                    <h3>Tried and True Fried Ideas:</h3>
+                    <h2>"Fried and True" Ideas:</h2>
                     <p>
                         fish 
                     <br>cookie dough
@@ -306,7 +316,11 @@
                 // if this is a dropdown button being clicked, toggle the show class
             })
         })
-
+        function checkInput() {
+        var query = document.getElementById('search').value;
+        window.find(query);
+        return true;
+        }
     </script>
 </body>
 </html>
