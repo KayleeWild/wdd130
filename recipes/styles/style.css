@@ -245,10 +245,6 @@ footer #social {
   background-color: #9B8167;
 }
 
-#tools {
-  background-color: #2B2625;
-}
-
 #child-hero h1 {
   padding: 4rem;
   background-color: #2B2625;
@@ -382,6 +378,67 @@ footer #social {
   letter-spacing: .05rem;
   border-radius: .5em;
   box-shadow: 5px 5px rgb(43, 38, 37, .7);
+}
+
+/* Tools Page */
+#tools {
+  background-color: #C7C0B0;
+}
+
+#tools-grid {
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  margin-bottom: 5%;
+}
+
+#tool-chest {
+  grid-column: 1/2;
+  grid-row: 1/3; 
+  background-color: #FFFFFF;
+  border: #2B2625 solid 2px;
+}
+
+#tool-chest img {
+  margin-top: 50%;
+}
+
+#tool-chest h1 {
+  position: absolute;
+  font-family: 'Fira Sans', sans-serif;
+  color: #2B2625;
+  z-index: 1;
+  top: 25%;
+  left: center;
+  font-size: 4rem;
+  width: 27%;
+}
+
+.graphics{
+  grid-column: 2/3;
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
+}
+
+.graphics img {
+  border: #2B2625 solid 2px;
+  display: inline;
+}
+
+.tools-text {
+  grid-column: 3/4;
+  border: #2B2625 solid 2px;
+  font-family: 'Fira Sans', sans-serif;
+  height: fit-content;
+  align-self: center;
+  max-width: 80%;
+  padding: 1rem;
+  background-color: #9B8167;
+  border-radius: .5em;
 }
 
 @media screen and (max-width: 900px) {
