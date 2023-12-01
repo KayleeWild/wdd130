@@ -41,7 +41,8 @@ nav a{
 
 nav a:hover{
   background-color: #9B8167;
-  color: #2B2625
+  color: #2B2625;
+  border: #2B2625 solid 2px;
 }
 
 header{
