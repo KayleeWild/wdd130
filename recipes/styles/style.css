@@ -463,7 +463,7 @@ footer #social {
     font-size: 1.5rem;
     letter-spacing: normal;
   }
-  #quote-box, #how-box, #why-box, #plan-box, #quote-card {
+  #quote-box, #how-box, #why-box, #plan-box, #quote-card, .search_box {
     display: none;
   }
   #about h1, #about p, #how h1, #how p, #why h1, #why p, #plan h1, #plan p {
