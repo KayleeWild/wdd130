@@ -451,10 +451,16 @@ footer #social {
       display: block;
       text-align: left;
       padding: 5px;
-      font-size: 1rem;
+      font-size: .7rem;
   }
-  #body {
+  body {
       width: 100%;
+      margin: 0 auto;
+      padding: 4em 1em;
+  }
+  #child-hero h1{
+    font-size: 1.5rem;
+    letter-spacing: normal;
   }
   #quote-box, #how-box, #why-box, #plan-box, #quote-card {
     display: none;
@@ -462,8 +468,31 @@ footer #social {
   #about h1, #about p, #how h1, #how p, #why h1, #why p, #plan h1, #plan p {
     grid-column: 1/3;
   }
+  #about h1, #how h1, #why h1, #plan h1 {
+    grid-row: 1/2;
+  }
+  #about p, #how p, #why p, #plan p {
+    grid-row: 2/3;
+  }
+  .dropdown a {
+    font-size: .7rem;
+  }
+  .tips {
+    font-size: .5rem;
+  }
+  #tools-grid {
+    display: block;
+  }
+  #tool-chest {
+    display: none;
+  }
+  .tools-text {
+    font-size: .5rem;
+    margin: 1rem auto;
+  }
 
   footer {
       margin-top: 25px;
+      font-size: .5rem;
   }
 }
