@@ -220,6 +220,10 @@ footer img{
   height: 100px;
 }
 
+footer p {
+  color: #7FB7BE;
+}
+
 footer a{
   color: #C7C0B0;
   text-decoration: none;

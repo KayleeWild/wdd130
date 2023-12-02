@@ -219,9 +219,11 @@ h4{
 
 footer{
     background-color: #FFFFFF;
+    border: #04314E solid 5px;
     color: #04314E;
     padding: 25px 50px;
     margin-top: 200px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
