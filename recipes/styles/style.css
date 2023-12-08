@@ -456,7 +456,7 @@ footer #social {
       display: block;
       text-align: left;
       padding: 5px;
-      font-size: .7rem;
+      font-size: 1rem;
   }
   body {
       width: 100%;
@@ -464,7 +464,7 @@ footer #social {
       padding: 4em 0em;
   }
   #child-hero h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: normal;
   }
   #quote-box, #how-box, #why-box, #plan-box, #quote-card, .search_box {
@@ -480,10 +480,10 @@ footer #social {
     grid-row: 2/3;
   }
   .dropdown a {
-    font-size: .7rem;
+    font-size: 1rem;
   }
   .tips {
-    font-size: .5rem;
+    font-size: 1rem;
   }
   #tools-grid {
     display: block;
@@ -492,7 +492,7 @@ footer #social {
     display: none;
   }
   .tools-text {
-    font-size: .5rem;
+    font-size: .75rem;
     margin: 1rem auto;
   }
 
